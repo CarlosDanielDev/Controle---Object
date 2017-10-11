@@ -8,6 +8,7 @@
     <h1>Project - Controle Remoto</h1>
     <pre>
     <?php
+        //aqui você pode requerir as funções da parte da interface Controlador.php//
         require_once 'ControleRemoto.php';
         $c = new ControleRemoto();
         $c->ligar();
