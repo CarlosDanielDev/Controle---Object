@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: root
- * Date: 09/10/17
- * Time: 23:01
- */
-
 interface Controlador {
     public function ligar();
     public function desligar();
